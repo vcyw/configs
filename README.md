@@ -3,6 +3,8 @@
 - dev.imranr.obtainium
   - https://github.com/ImranR98/Obtainium
   - https://wiki.obtainium.imranr.dev/
+- com.github.metacubex.clash.meta
+  - https://github.com/MetaCubeX/ClashMetaForAndroid
 
 示例
 -----
