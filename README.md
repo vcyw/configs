@@ -5,6 +5,9 @@
   - https://wiki.obtainium.imranr.dev/
 - com.github.metacubex.clash.meta
   - https://github.com/MetaCubeX/ClashMetaForAndroid
+- ch.rmy.android.http_shortcuts
+  - https://github.com/Waboodoo/HTTP-Shortcuts
+  - https://http-shortcuts.rmy.ch
 
 示例
 -----
@@ -18,7 +21,7 @@ docs(readme): update README.md
 ```
 
 ```
-feat(ch.rmy.android.http_shortcuts): add ch.rmy.android.http_shortcuts
+feat(ch.rmy.android.http_shortcuts): add ch.rmy.android.http_shortcuts, version 4.10.0
 ```
 
 ```
