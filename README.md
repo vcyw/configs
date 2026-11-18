@@ -8,6 +8,8 @@
 - ch.rmy.android.http_shortcuts
   - https://github.com/Waboodoo/HTTP-Shortcuts
   - https://http-shortcuts.rmy.ch
+- com.trianguloy.urlchecker
+  - https://github.com/TrianguloY/URLCheck
 
 示例
 -----
