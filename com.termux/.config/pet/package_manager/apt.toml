@@ -1,0 +1,83 @@
+[[Snippets]]
+  Description = "apt - autoremove"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt autoremove"
+
+[[Snippets]]
+  Description = "apt - autoclean"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt autoclean"
+
+[[Snippets]]
+  Description = "apt - clean"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt clean"
+
+[[Snippets]]
+  Description = "* apt ^ update"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt update"
+
+[[Snippets]]
+  Description = "* apt - list --upgradeable"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt list --upgradeable -a"
+
+[[Snippets]]
+  Description = "apt - list --installed"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt list --installed"
+
+[[Snippets]]
+  Description = "apt ~ list"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt list <patterns>"
+
+[[Snippets]]
+  Description = "* apt ^ upgrade"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt upgrade -y"
+
+[[Snippets]]
+  Description = "apt ~ search"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt search <query>"
+
+[[Snippets]]
+  Description = "apt ~ show"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt show <packages>"
+
+[[Snippets]]
+  Description = "apt ~ install"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "apt install <packages>"
+
+[[Snippets]]
+  Description = "apt ~ repo main"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "sed -i 's@^\\(deb.*stable main\\)$@#\\1\\ndeb <Mirror=https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main> stable main@' <File=$PREFIX/etc/apt/sources.list>"
+
+[[Snippets]]
+  Description = "apt ~ repo x11"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "sed -i 's@^\\(deb.*x11 main\\)$@#\\1\\ndeb <Mirror=https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-x11> x11 main @' <File=$PREFIX/etc/apt/sources.list.d/x11.list>"
+
+[[Snippets]]
+  Description = "apt ~ repo root"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "sed -i 's@^\\(deb.*root stable\\)$@#\\1\\ndeb <Mirror=https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-root> root stable @' <File=$PREFIX/etc/apt/sources.list.d/root.list>"

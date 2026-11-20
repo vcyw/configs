@@ -1,0 +1,5 @@
+[[Snippets]]
+  Description = "node"
+  Output = ""
+  Tag = ["node"]
+  command = "node -e \"console.log(encodeURIComponent('<content>'))\""

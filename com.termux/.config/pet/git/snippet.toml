@@ -1,0 +1,107 @@
+[[Snippets]]
+  Description = "git - status"
+  Output = ""
+  Tag = ["git"]
+  command = "git status"
+
+[[Snippets]]
+  Description = "git - branch"
+  Output = ""
+  Tag = ["git"]
+  command = "git branch -a"
+
+[[Snippets]]
+  Description = "git - config"
+  Output = ""
+  Tag = ["git"]
+  command = "git config list"
+
+[[Snippets]]
+  Description = "git - remote"
+  Output = ""
+  Tag = ["git"]
+  command = "git remote -v"
+
+[[Snippets]]
+  Description = "git - ls-files 列出未追踪的文件"
+  Output = ""
+  Tag = ["git"]
+  command = "git ls-files --others --exclude-standard"
+
+[[Snippets]]
+  Description = "git - diff"
+  Output = ""
+  Tag = ["git"]
+  command = "git diff"
+
+[[Snippets]]
+  Description = "git - diff --cached"
+  Output = ""
+  Tag = ["git"]
+  command = "git diff --cached"
+
+[[Snippets]]
+  Description = "git - diff --name-only"
+  Output = ""
+  Tag = ["git"]
+  command = "git diff --name-only"
+
+[[Snippets]]
+  Description = "git - diff"
+  Output = ""
+  Tag = ["git"]
+  command = "git diff --word-diff=porcelain"
+
+[[Snippets]]
+  Description = "git - diff 过滤已删除文件"
+  Output = ""
+  Tag = ["git"]
+  command = "git diff --diff-filter=d"
+
+[[Snippets]]
+  Description = "git - add -p"
+  Output = ""
+  Tag = ["git"]
+  command = "git add --patch"
+
+[[Snippets]]
+  Description = "git - add -i"
+  Output = ""
+  Tag = ["git"]
+  command = "git add --interactive"
+
+[[Snippets]]
+  Description = "git - add -u"
+  Output = ""
+  Tag = ["git"]
+  command = "git add --update"
+
+[[Snippets]]
+  Description = "git - restore -p"
+  Output = ""
+  Tag = ["git"]
+  command = "git restore --patch"
+
+[[Snippets]]
+  Description = "git - commit -C"
+  Output = ""
+  Tag = ["git"]
+  command = "git commit --reset-author -C HEAD"
+
+[[Snippets]]
+  Description = "git - commit --amend"
+  Output = ""
+  Tag = ["git"]
+  command = "git commit --amend --no-edit --reset-author"
+
+[[Snippets]]
+  Description = "git - log"
+  Output = ""
+  Tag = ["git"]
+  command = "git log"
+
+[[Snippets]]
+  Description = "git - log -3"
+  Output = ""
+  Tag = ["git"]
+  command = "git log -3"

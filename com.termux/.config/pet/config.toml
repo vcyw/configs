@@ -1,0 +1,48 @@
+[GHEGist]
+  Public = false
+  access_token = ""
+  auto_sync = false
+  base_url = ""
+  file_name = ""
+  gist_id = ""
+  upload_url = ""
+
+[General]
+  Backend = "gist"
+  Cmd = []
+  Color = false
+  Column = 40
+  Editor = "vim"
+  Format = "[$description]: $command $tags"
+  SelectCmd = "fzf --ansi --layout=reverse --border --height=90% --pointer=👉 --cycle --prompt=Snippets:"
+  SnippetDirs = [
+    "/data/data/com.termux/files/home/.config/pet/adb",
+    "/data/data/com.termux/files/home/.config/pet/boot",
+    "/data/data/com.termux/files/home/.config/pet/git",
+    "/data/data/com.termux/files/home/.config/pet/network",
+    "/data/data/com.termux/files/home/.config/pet/node",
+    "/data/data/com.termux/files/home/.config/pet/package_manager",
+    "/data/data/com.termux/files/home/.config/pet/ssh",
+    "/data/data/com.termux/files/home/.config/pet/termux",
+    "/data/data/com.termux/files/home/.config/pet/tmux",
+    "/data/data/com.termux/files/home/.config/pet/vim"
+  ]
+  SnippetFile = "/data/data/com.termux/files/home/.config/pet/snippet.toml"
+  SortBy = "description"
+  cmd = ["bash", "-c"]
+
+[Gist]
+  Public = false
+  access_token = ""
+  auto_sync = false
+  file_name = "pet-snippet.toml"
+  gist_id = ""
+
+[GitLab]
+  ID = ""
+  Url = ""
+  Visibility = "private"
+  access_token = ""
+  auto_sync = false
+  file_name = "pet-snippet.toml"
+  skip_ssl = false

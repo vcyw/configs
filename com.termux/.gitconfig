@@ -1,0 +1,30 @@
+[safe]
+	directory = /storage/emulated/0/Documents/markor/gh/vc-awesome
+	directory = /storage/emulated/0/Documents/markor/gh/docs-learning
+	directory = /storage/emulated/0/Documents/markor/gh/md-file-tree
+	directory = /storage/emulated/0/Documents/docs-learning
+	directory = /storage/emulated/0/Documents/markor/gh/uniapp-urlscheme
+	directory = /storage/emulated/0/Documents/markor/gh/floccus-bookmarks
+	directory = /storage/emulated/0/Documents/markor/gh/a
+	directory = /storage/emulated/0/Documents/markor/gh/demo
+	directory = /storage/emulated/0/Documents/markor/note
+	directory = /storage/emulated/0/Documents/markor/gh/docs-vitepress
+	directory = /storage/emulated/0/Documents/markor/gh/backup
+	directory = /storage/emulated/0/Documents/markor/gh/docs-learning
+	directory = /storage/emulated/0/Documents/markor/gh/docs-learning
+	directory = /storage/emulated/0/Documents/markor/gh/configs
+[user]
+	name = vc
+	email = caiyongwen@yeah.net
+[init]
+	defaultBranch = master
+[color]
+	ui = true
+[gui]
+  encoding = utf-8
+[i18n]
+  commitencoding = utf-8
+[svn]
+  pathnameencoding = utf-8
+[core]
+  quotepath = false

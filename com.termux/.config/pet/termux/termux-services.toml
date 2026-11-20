@@ -1,0 +1,24 @@
+
+[[Snippets]]
+  Description = "termux-services - sv status"
+  Output = ""
+  Tag = ["termux"]
+  command = "sv status <service=sshd>"
+
+[[Snippets]]
+  Description = "termux-services - sv up"
+  Output = ""
+  Tag = ["termux"]
+  command = "sv up <service=sshd>"
+
+[[Snippets]]
+  Description = "termux-services - sv down"
+  Output = ""
+  Tag = ["termux"]
+  command = "sv down <service=sshd>"
+
+[[Snippets]]
+  Description = "termux-services - run_geo"
+  Output = ""
+  Tag = ["termux"]
+  command = "bash -c /data/data/com.termux/files/usr/var/service/run_curl/run"

@@ -1,0 +1,90 @@
+[[Snippets]]
+  Description = "ifconfig help"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ifconfig --help"
+
+[[Snippets]]
+  Description = "ifconfig"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ifconfig"
+
+[[Snippets]]
+  Description = "ip address help"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ip -c addr help"
+
+[[Snippets]]
+  Description = "ip address"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ip -c -d -s addr"
+
+[[Snippets]]
+  Description = "ip -6 address"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ip -6 -c addr show"
+
+[[Snippets]]
+  Description = "ip -6 address wlan0"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ip -6 -c addr show dev wlan0"
+
+[[Snippets]]
+  Description = "netstat"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell netstat"
+
+[[Snippets]]
+  Description = "ss"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ss"
+
+[[Snippets]]
+  Description = "ping"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ping -c 5 www.bytedance.com"
+
+[[Snippets]]
+  Description = "ping6"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ping6 -c 5 2606:4700:4700::1111"
+
+[[Snippets]]
+  Description = "ping6"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell ping6 -c 5 ipv6.google.com"
+
+[[Snippets]]
+  Description = "* curl help"
+  Output = ""
+  Tag = ["network"]
+  command = "curl --help"
+
+[[Snippets]]
+  Description = "* curl"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell curl -s ifconfig.co/json | python3 -m json.tool"
+
+[[Snippets]]
+  Description = "* curl"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell curl -s ipinfo.io | python3 -m json.tool"
+
+[[Snippets]]
+  Description = "* curl"
+  Output = ""
+  Tag = ["network"]
+  command = "adb shell curl -s https://api.ip.sb/geoip | python3 -m json.tool"
+  

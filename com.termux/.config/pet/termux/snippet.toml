@@ -1,0 +1,11 @@
+[[Snippets]]
+  Description = "termux - preferences"
+  Output = ""
+  Tag = ["termux"]
+  command = "cat /data/data/com.termux/shared_prefs/com.termux_preferences.xml"
+
+[[Snippets]]
+  Description = "proot - chroot"
+  Output = ""
+  Tag = ["termux"]
+  command = "termux-chroot"

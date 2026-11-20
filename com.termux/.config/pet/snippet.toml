@@ -1,0 +1,125 @@
+[[Snippets]]
+  Description = "* processes - htop"
+  Output = ""
+  Tag = [""]
+  command = "htop"
+
+[[Snippets]]
+  Description = "processes - ps"
+  Output = ""
+  Tag = [""]
+  command = "ps auxww"
+
+[[Snippets]]
+  Description = "processes - ps"
+  Output = ""
+  Tag = [""]
+  command = "ps -efww"
+
+[[Snippets]]
+  Description = "processes - pstree"
+  Output = ""
+  Tag = [""]
+  command = "pstree -al"
+
+[[Snippets]]
+  Description = "shizuku"
+  Output = ""
+  Tag = ["shizuku", "shell"]
+  command = "sh ~/bin/shizuku/rish"
+
+[[Snippets]]
+  Description = "pet - Create a new snippet"
+  Output = ""
+  Tag = ["pet"]
+  command = "pet new -t"
+
+[[Snippets]]
+  Description = "pet - Edit snippet file"
+  Output = ""
+  Tag = ["pet"]
+  command = "pet edit"
+
+[[Snippets]]
+  Description = "pet - Edit config file"
+  Output = ""
+  Tag = ["pet"]
+  command = "pet configure"
+
+[[Snippets]]
+  Description = "pet - Run the selected commands"
+  Output = ""
+  Tag = ["pet", "pm"]
+  command = "pet exec --color -t pkg"
+
+[[Snippets]]
+  Description = "pet - adb"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t adb"
+
+[[Snippets]]
+  Description = "pet - apt"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t apt"
+
+[[Snippets]]
+  Description = "pet - npm"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t npm"
+
+[[Snippets]]
+  Description = "pet - tmux"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t tmux"
+
+[[Snippets]]
+  Description = "pet - pkg"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t pkg"
+
+[[Snippets]]
+  Description = "pet - termux"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t termux"
+
+[[Snippets]]
+  Description = "pet - git"
+  Output = ""
+  Tag = ["tag"]
+  command = "pet exec --color -t git"
+
+[[Snippets]]
+  Description = "generate dir tree"
+  Output = ""
+  Tag = []
+  command = "(cd ~/storage/shared/Documents/markor/gh/docs-learning/content/ && node /data/data/com.termux/files/home/repos/md-file-tree/index.js -e > dir-tree.md)"
+
+[[Snippets]]
+  Description = ""
+  Output = ""
+  Tag = []
+  command = "nohup python3 -m http.server <port=8080> > /dev/null 2>&1 &"
+
+[[Snippets]]
+  Description = ""
+  Output = ""
+  Tag = []
+  command = "jobs -l"
+
+[[Snippets]]
+  Description = ""
+  Output = ""
+  Tag = []
+  command = "jobs -l"
+
+[[Snippets]]
+  Description = "‌去重并保持原序‌"
+  Output = ""
+  Tag = []
+  command = "awk '!seen[$0]++' <file> | nl"

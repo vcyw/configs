@@ -1,0 +1,11 @@
+[[Snippets]]
+  Description = "dpkg ~ --listfiles"
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "dpkg --listfiles <package...> | sort | nl -w 3 -s ' - '"
+
+[[Snippets]]
+  Description = "dpkg ~ List files 'owned' by package(s)."
+  Output = ""
+  Tag = ["apt", "pm"]
+  command = "{ dpkg -S $(which <command>); } | tee /dev/stderr | awk -F': ' '{print $1}' | xargs -r dpkg -L | sort"

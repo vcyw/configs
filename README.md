@@ -1,6 +1,9 @@
 # configs
 
-- dev.imranr.obtainium
+应用
+-----
+
+- [dev.imranr.obtainium](dev.imranr.obtainium)
   - https://github.com/ImranR98/Obtainium
   - https://wiki.obtainium.imranr.dev/
 - com.github.metacubex.clash.meta
@@ -10,6 +13,9 @@
   - https://http-shortcuts.rmy.ch
 - com.trianguloy.urlchecker
   - https://github.com/TrianguloY/URLCheck
+- com.termux
+  - https://github.com/termux/termux-app
+  - https://wiki.termux.com
 
 示例
 -----

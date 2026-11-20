@@ -1,0 +1,11 @@
+[[Snippets]]
+  Description = "login"
+  Output = ""
+  Tag = ["boot"]
+  command = "cat $PREFIX/bin/login"
+
+[[Snippets]]
+  Description = "profile"
+  Output = ""
+  Tag = ["boot"]
+  command = "cat $PREFIX/etc/profile"

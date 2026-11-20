@@ -1,0 +1,17 @@
+[[Snippets]]
+  Description = "ssh -T gitlab"
+  Output = ""
+  Tag = ["ssh", "shell"]
+  command = "ssh -T git@gitlab.com"
+
+[[Snippets]]
+  Description = "ssh -T github"
+  Output = ""
+  Tag = ["ssh", "shell"]
+  command = "ssh -T git@github.com"
+
+[[Snippets]]
+  Description = "ssh -p"
+  Output = ""
+  Tag = ["ssh", "shell"]
+  command = "ssh -p <port=8022> <host=127.0.0.1>"

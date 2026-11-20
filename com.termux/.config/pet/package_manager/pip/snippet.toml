@@ -1,0 +1,5 @@
+[[Snippets]]
+  Description = "pip list"
+  Output = ""
+  Tag = ["pip", "pm"]
+  command = "pip list"

@@ -1,0 +1,23 @@
+[[Snippets]]
+  Description = "vim -h"
+  Output = ""
+  Tag = ["vim"]
+  command = "vim --help"
+
+[[Snippets]]
+  Description = "vim -np [dir ..]"
+  Output = ""
+  Tag = ["vim"]
+  command = "vim -n /storage/emulated/0/Documents/markor/note/"
+
+[[Snippets]]
+  Description = "vim -np [file ..]"
+  Output = ""
+  Tag = ["vim"]
+  command = "FILES=$(fzf -m --preview 'cat {}') && vim -np $FILES"
+
+[[Snippets]]
+  Description = "vim -nS ~/.vim/session-book.vim"
+  Output = ""
+  Tag = ["vim"]
+  command = "vim -nS ~/.vim/session-book.vim"

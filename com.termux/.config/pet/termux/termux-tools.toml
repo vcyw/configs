@@ -1,0 +1,35 @@
+[[Snippets]]
+  Description = "termux-tools - chsh"
+  Output = ""
+  Tag = ["termux"]
+  command = "chsh -s <shell=bash>"
+
+[[Snippets]]
+  Description = "termux-tools - reload settings"
+  Output = ""
+  Tag = ["termux"]
+  command = "termux-reload-settings"
+
+[[Snippets]]
+  Description = "termux-tools - setup storage"
+  Output = ""
+  Tag = ["termux"]
+  command = "termux-setup-storage"
+
+[[Snippets]]
+  Description = "termux-tools - change repo"
+  Output = ""
+  Tag = ["termux"]
+  command = "termux-change-repo"
+
+[[Snippets]]
+  Description = "termux-tools - reload settings"
+  Output = ""
+  Tag = ["termux"]
+  command = "termux-reload-settings"
+
+[[Snippets]]
+  Description = "termux-tools - setup storarge"
+  Output = ""
+  Tag = ["termux"]
+  command = "termux-setup-storage"

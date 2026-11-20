@@ -1,0 +1,35 @@
+[[Snippets]]
+  Description = "npm --version"
+  Output = ""
+  Tag = ["npm"]
+  command = "npm -v"
+
+[[Snippets]]
+  Description = "npm - --global List installed packages"
+  Output = ""
+  Tag = ["npm", "pm"]
+  command = "npm -g --color list"
+
+[[Snippets]]
+  Description = "npm ~ --global Install a package"
+  Output = ""
+  Tag = ["npm", "pm"]
+  command = "npm -g install <package-spec>"
+
+[[Snippets]]
+  Description = "npm ^ --global Update"
+  Output = ""
+  Tag = ["npm", "pm"]
+  command = "npm -g update"
+
+[[Snippets]]
+  Description = "ncu ^ --global"
+  Output = ""
+  Tag = ["npm", "ncu"]
+  command = "ncu --format group --global --interactive --reject npm"
+
+[[Snippets]]
+  Description = "* ncu ^ --global"
+  Output = ""
+  Tag = ["npm", "ncu", "pm"]
+  command = "ncu -g"

@@ -1,0 +1,78 @@
+[[Snippets]]
+  Description = "adb - devices"
+  Output = ""
+  Tag = ["adb"]
+  command = "adb devices -l"
+
+[[Snippets]]
+  Description = "adb - tcpip"
+  Output = ""
+  Tag = ["adb"]
+  command = "adb tcpip 5555"
+
+[[Snippets]]
+  Description = "adb ~ connect"
+  Output = ""
+  Tag = ["adb"]
+  command = "adb connect <ip=localhost:><port=5555>"
+
+[[Snippets]]
+  Description = "adb ~ connect full"
+  Output = ""
+  Tag = ["adb"]
+  command = "adb connect <ip:port> && adb devices -l && adb tcpip 5555 && adb kill-server && sleep 3 && adb devices -l && am start -n moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity -f 8388608"
+
+[[Snippets]]
+  Description = "adb - restart-server"
+  Output = ""
+  Tag = ["adb"]
+  command = "adb kill-server && adb start-server"
+
+[[Snippets]]
+  Description = "adb ~ shell pm"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell pm suspend <packages>"
+
+[[Snippets]]
+  Description = "adb - shell settings"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell settings get secure enabled_accessibility_services"
+
+[[Snippets]]
+  Description = "adb - shell settings"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell settings get secure autofill_service"
+
+[[Snippets]]
+  Description = "adb - shell settings"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell settings get secure default_input_method"
+
+[[Snippets]]
+  Description = "adb - shell (app manager)"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell killall am_local_server"
+
+[[Snippets]]
+  Description = "adb - shell (app manager)"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell ps -A | grep ^shell"
+  
+[[Snippets]]
+  Description = "adb - shell ps"
+  Output = ""
+  Tag = ["adb", "shell"]
+  command = "adb shell ps -efww"
+
+[[Snippets]]
+  Description = "adb - open wireless debugging"
+  Output = ""
+  Tag = ["adb"]
+  command = "am start --user 0 -a android.intent.action.MAIN -n com.android.settings/com.android.settings.SubSettings --es :settings:show_fragment com.android.settings.development.WirelessDebuggingFragment -f 268435456 com.android.settings"
+

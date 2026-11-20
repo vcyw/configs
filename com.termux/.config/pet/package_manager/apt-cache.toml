@@ -1,0 +1,5 @@
+[[Snippets]]
+  Description = "apt-cache ~ show"
+  Output = ""
+  Tag = ["apt"]
+  command = "apt-cache show <packages>"

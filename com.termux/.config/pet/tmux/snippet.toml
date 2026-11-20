@@ -1,0 +1,29 @@
+[[Snippets]]
+  Description = "tmux - 查看当前所有会话"
+  Output = ""
+  Tag = ["tmux"]
+  command = "tmux ls"
+
+[[Snippets]]
+  Description = "tmux - 重新接入某个已存在的会话"
+  Output = ""
+  Tag = ["tmux"]
+  command = "tmux attach -t git"
+
+[[Snippets]]
+  Description = "tmux - 启动窗口"
+  Output = ""
+  Tag = ["tmux"]
+  command = "tmux"
+
+[[Snippets]]
+  Description = "tmux - 划分上下两个窗格"
+  Output = ""
+  Tag = ["tmux"]
+  command = "tmux split-window"
+
+[[Snippets]]
+  Description = "tmux - 新建会话"
+  Output = ""
+  Tag = ["tmux"]
+  command = "tmux new -s"

@@ -1,0 +1,59 @@
+[[Snippets]]
+  Description = "pkg ^ update"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg update"
+
+[[Snippets]]
+  Description = "pkg ^ update --check-mirror"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg --check-mirror update"
+
+[[Snippets]]
+  Description = "pkg ^ upgrade"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg upgrade"
+
+[[Snippets]]
+  Description = "pkg - autoclean"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg autoclean"
+
+[[Snippets]]
+  Description = "pkg - clean"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg clean"
+
+[[Snippets]]
+  Description = "pkg - list-all"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg list-all"
+
+[[Snippets]]
+  Description = "pkg - list-installed"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg list-installed"
+
+[[Snippets]]
+  Description = "pkg ~ files"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg files <packages>"
+
+[[Snippets]]
+  Description = "pkg ~ search"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg search <query>"
+
+[[Snippets]]
+  Description = "pkg ~ show"
+  Output = ""
+  Tag = ["pkg"]
+  command = "pkg show <packages>"
